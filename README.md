@@ -59,7 +59,7 @@ RMSE	= 5796.285
 R²	= 0.784
 Smoking, BMI, and age appear to be the strongest predictors of insurance cost.
 
-LINK TO NOTEBOOK :https://colab.research.google.com/drive/13Uh1A5Msb1kf66_FVU4b5r4H2JpDIng5?usp=sharing
+LINK TO NOTEBOOK :https://colab.research.google.com/drive/12vfxRZJvxQJfqf48cCGl0SRVoWdv4UB8?usp=sharing
 
 
 ▶ How to Run
