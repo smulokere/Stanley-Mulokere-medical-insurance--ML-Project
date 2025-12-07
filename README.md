@@ -15,8 +15,8 @@ Evaluate model performance using standard metrics
 
 Interpret findings and identify key cost drivers
 
-Dataset Description
-Feature	Description
+Dataset Description and Feature	Description
+
 age	Age of the insured individual
 sex	Male/Female
 bmi	Body mass index
@@ -24,6 +24,9 @@ children	Number of dependents covered
 smoker	Smoker or non-smoker
 region	Geographical area
 charges (target)	Medical insurance cost
+
+SOURCE
+Kaggle
 
 Missing Values: None detected
 Target Behavior: Right-skewed distribution — high outliers linked to smokers & high BMI
