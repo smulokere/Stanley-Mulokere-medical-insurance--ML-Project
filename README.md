@@ -28,6 +28,8 @@ charges (target)	Medical insurance cost
 Missing Values: None detected
 Target Behavior: Right-skewed distribution — high outliers linked to smokers & high BMI
 
+
+
 🧪 Techniques & Models Used
 
 Data inspection & summary statistics
@@ -52,6 +54,8 @@ R²	= 0.784
 Smoking, BMI, and age appear to be the strongest predictors of insurance cost.
 
 LINK TO NOTEBOOK :https://colab.research.google.com/drive/13Uh1A5Msb1kf66_FVU4b5r4H2JpDIng5?usp=sharing
+
+
 ▶ How to Run
 Option 1 — Google Colab
 from google.colab import files
