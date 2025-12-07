@@ -1,7 +1,9 @@
 Medical Insurance Charges Prediction Using Machine Learning
  Overview
 
-This project applies supervised machine learning to predict medical insurance charges based on personal attributes such as age, BMI, smoking status, and number of children. The notebook walks step-by-step through loading the dataset, exploratory data analysis, feature encoding, and building multiple predictive models.
+This project applies supervised machine learning to predict medical insurance charges based on personal attributes such as age, BMI, smoking status, and number of children. The notebook walks step-by-step through loading the dataset, exploratory data analysis, feature encoding, and building multiple predictive models.This study first identified potential confounding factors through description and correlation analysis, and then used a stepwise regression model to control variables such as age, BMI, sex, children, and region from simple to complex to verify whether smoking is the independent and strongest influencing factor of medical expenditures. Model diagnosis ensures the reliability of OLS, and then the conclusion shows that smoking always remains the most stable and significant influence, with strong explanatory power and policy significance.
+
+
 
 Objectives
 
@@ -27,7 +29,7 @@ charges (target)	Medical insurance cost,
 
 SOURCE
 
-Kaggle
+Kaggle:https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 Missing Values: None detected
 Target Behavior: Right-skewed distribution — high outliers linked to smokers & high BMI
