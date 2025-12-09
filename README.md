@@ -19,7 +19,9 @@ Interpret findings and identify key cost drivers
 
 Dataset Description and Feature	Description
 
-Age of the insured individual, 
+Age of the insured individual,
+
+
 sex	Male/Female, 
 bmi	Body mass index, 
 children	Number of dependents covered, 
