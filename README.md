@@ -19,15 +19,19 @@ Interpret findings and identify key cost drivers
 
 Dataset Description and Feature	Description
 
-Age of the insured individual,
+Age of the insured individual
 
+sex	Male/Female
 
-sex	Male/Female, 
-bmi	Body mass index, 
-children	Number of dependents covered, 
-smoker	Smoker or non-smoker, 
-region	Geographical area, 
-charges (target)	Medical insurance cost, 
+bmi	Body mass index
+
+children	Number of dependents covered
+
+smoker	Smoker or non-smoker
+
+region	Geographical area
+
+charges (target)	Medical insurance cost
 
 SOURCE
 
