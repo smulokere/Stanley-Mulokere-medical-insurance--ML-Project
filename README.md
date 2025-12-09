@@ -7,35 +7,35 @@ This project applies supervised machine learning to predict medical insurance ch
 
 Objectives
 
-Analyze factors influencing medical insurance cost
+-Analyze factors influencing medical insurance cost
 
-Preprocess and encode categorical features
+-Preprocess and encode categorical features
 
-Train regression models to predict charges
+-Train regression models to predict charges
 
-Evaluate model performance using standard metrics
+-Evaluate model performance using standard metrics
 
-Interpret findings and identify key cost drivers
+-Interpret findings and identify key cost drivers
 
-Dataset Description and Feature	Description
+-Dataset Description and Feature	Description
 
-Age of the insured individual
+-Age of the insured individual
 
-sex	Male/Female
+-sex	Male/Female
 
-bmi	Body mass index
+-bmi	Body mass index
 
-children	Number of dependents covered
+-children	Number of dependents covered
 
-smoker	Smoker or non-smoker
+-smoker	Smoker or non-smoker
 
-region	Geographical area
+-region	Geographical area
 
-charges (target)	Medical insurance cost
+-charges (target)	Medical insurance cost
 
 SOURCE
 
-Kaggle:https://www.kaggle.com/datasets/mirichoi0218/insurance
+-Kaggle:https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 Missing Values: None detected
 Target Behavior: Right-skewed distribution — high outliers linked to smokers & high BMI
@@ -44,26 +44,28 @@ Target Behavior: Right-skewed distribution — high outliers linked to smokers &
 
 🧪 Techniques & Models Used
 
-Data inspection & summary statistics
+-Data inspection & summary statistics
 
-Exploratory visual analysis (distributions, correlations)
+-Exploratory visual analysis (distributions, correlations)
 
-Categorical encoding & scaling
+-Categorical encoding & scaling
 
-Train/Test split
+-Train/Test split
 
-Baseline model: Linear Regression
+-Baseline model: Linear Regression
 
-Model evaluation with MAE, MSE, RMSE, R²
+-Model evaluation with MAE, MSE, RMSE, R²
+
+-Random forest
 
 📈 Results Summary 
 Metric	Score
 MAE	=from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
-MAE= 4181.194
-RMSE	= 5796.285
-R²	= 0.784
-Smoking, BMI, and age appear to be the strongest predictors of insurance cost.
+-MAE= 4181.194
+-RMSE	= 5796.285
+-R²	= 0.784
+-Smoking, BMI, and age appear to be the strongest predictors of insurance cost.
 
 LINK TO NOTEBOOK :https://colab.research.google.com/drive/12vfxRZJvxQJfqf48cCGl0SRVoWdv4UB8?usp=sharing
 
