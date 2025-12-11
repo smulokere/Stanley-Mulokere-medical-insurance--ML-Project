@@ -75,6 +75,8 @@ Because the aging suffor from higher risks of chronic dieases, welfare should in
 -Further Research is Recommended, Such As Smoker×BMI and Smoker × Age
 
 Limitation
+
+
 -The Data Are Cross-Sectional and Temporal Causality Cannot Be Identified
 This study is only based on a time section and cannot observe changes in medical expenses over time. Therefore, researchers need to determine cumulative effects of long-term smoking.
 
